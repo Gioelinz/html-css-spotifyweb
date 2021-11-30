@@ -80,7 +80,7 @@ header #upgrade-btn{
     border-radius: 50px;
     border: 1px solid white;
     position: absolute;
-    right: 5px;
+    right: 20px;
     top: 20px;
     cursor: pointer;
 }
@@ -218,4 +218,44 @@ main p{
 .left-player img{
     max-width: 60px;
     max-height: 50px;
+}
+
+.middle-player{
+    display: flex;
+    justify-content: center;
+    flex-basis: 40%;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.middle-player .top-mid{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.middle-player .bottom-mid{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-mid span{
+    padding: 0 10px;
+}
+
+.music-bar{
+    height: 6px;
+    min-width: 70%;
+    background-color: #797C80;
+    border-radius: 20px;
+}
+
+.music-bar .fill-bar{
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    border-radius: 20px;
 }
