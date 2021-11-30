@@ -1,7 +1,13 @@
+/* Generics */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
 }
 
 .d-flex{
@@ -76,7 +82,15 @@ header #upgrade-btn{
     position: absolute;
     right: 5px;
     top: 20px;
+    cursor: pointer;
 }
+
+.space-header{
+    height: 15%;
+    background-color: #141922;
+}
+
+/* Main contents */
 
 main{
     flex-direction: row;
@@ -85,6 +99,34 @@ main{
     width: 90vw;
     overflow: auto;
 }
+
+ul.categories{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+.categories li{
+    display: inline-block;
+    margin: 0 10px 50px 10px;
+}
+
+.categories li hr{
+    width: 40%;
+    margin: auto;
+    border-color: #ADFF2F;
+}
+
+.categories li a{
+    text-decoration: none;
+    color: #797C80;
+    font-weight: 700;
+}
+
+
+
+
 
 .player{
     background-color: #282828;
