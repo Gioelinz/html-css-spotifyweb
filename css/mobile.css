@@ -48,7 +48,10 @@
     border-radius: 50%;
     height: 35px;
     width: 35px;
+    margin-bottom: 10px;
 }
+
+/* Sezione Header */
 
 .wrapper{
     display: flex;
@@ -61,6 +64,18 @@ header{
     height: 100px;
     width: 90vw;
     position: fixed;
+}
+
+header #upgrade-btn{
+    color: white;
+    padding: 15px 40px;
+    background-color: transparent;
+    font-weight: 800;
+    border-radius: 50px;
+    border: 1px solid white;
+    position: absolute;
+    right: 5px;
+    top: 20px;
 }
 
 main{
