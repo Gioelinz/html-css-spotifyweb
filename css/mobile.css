@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.sidebar{
+    background-color: #000;
+    flex-direction: column;
+    width: 10vw;
+    height: 90vh;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    flex-direction: row;
+    background-color: green;
+    height: 100px;
+    width: 90vw;
+    position: fixed;
+}
+
+main{
+    flex-direction: row;
+    background-color: blue;
+    height: 90vh;
+    width: 90vw;
+}
+
+.player{
+    background-color: gray;
+    min-height: 10vh;
+    width: 100%;
+}
