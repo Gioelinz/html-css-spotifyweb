@@ -8,11 +8,46 @@
     display: flex;
 }
 
+/* Sezione sidebar */
+
 .sidebar{
     background-color: #000;
     flex-direction: column;
     width: 10vw;
     height: 90vh;
+    display: flex;
+}
+
+.sidebar .sidebar-icons{
+    width: 38px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-top: 5px;
+}
+
+.sidebar-icons img{
+    margin: 5px auto;
+}
+
+.sidebar .bottom-icons{
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+#download{
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+#profile{
+    background-color: grey;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
 }
 
 .wrapper{
@@ -22,7 +57,7 @@
 
 header{
     flex-direction: row;
-    background-color: green;
+    background-color: rgba(8,11,18,0.7);
     height: 100px;
     width: 90vw;
     position: fixed;
@@ -30,13 +65,14 @@ header{
 
 main{
     flex-direction: row;
-    background-color: blue;
+    background-color: #141922;
     height: 90vh;
     width: 90vw;
+    overflow: auto;
 }
 
 .player{
-    background-color: gray;
+    background-color: #282828;
     min-height: 10vh;
     width: 100%;
 }
