@@ -124,8 +124,49 @@ ul.categories{
     font-weight: 700;
 }
 
+/* Sezione album */
 
+.main-albums{
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.albums{
+    display: flex;
+    justify-content: space-around;
+    max-width: 50%;
+    margin: 10px auto;
+}
+
+.albums h3{
+    color: white;
+    margin: 15px 0 8px 0;
+    text-align: center;
+}
+
+.albums p{
+    color: #797C80;
+    font-weight: 600;
+    text-align: center;
+}
+
+.albums img{
+    max-width: 100%;
+}
+
+.content-album{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 200px;
+}
+
+main h2{
+    color: white;
+    font-size: 2em;
+    margin-bottom: 30px;
+    margin-left: 5%;
+}
 
 
 .player{
