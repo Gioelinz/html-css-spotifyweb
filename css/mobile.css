@@ -85,10 +85,10 @@ header #upgrade-btn{
     cursor: pointer;
 }
 
-.space-header{
-    height: 15%;
+/* .space-header{
+    height: 12%;
     background-color: #141922;
-}
+} */
 
 /* Main contents */
 
@@ -101,6 +101,7 @@ main{
 }
 
 ul.categories{
+    margin-top: 120px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -129,6 +130,7 @@ ul.categories{
 .main-albums{
     display: flex;
     flex-wrap: wrap;
+    margin-top: 20px;
 }
 
 .albums{
@@ -164,8 +166,19 @@ ul.categories{
 main h2{
     color: white;
     font-size: 2em;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     margin-left: 5%;
+    margin-top: 10px;
+}
+
+main p{
+    color: #797C80;
+    font-weight: 600;
+    margin-left: 5%;
+}
+
+.circle-img{
+    border-radius: 50%;
 }
 
 
