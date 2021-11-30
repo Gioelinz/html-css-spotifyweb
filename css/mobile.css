@@ -181,9 +181,41 @@ main p{
     border-radius: 50%;
 }
 
+/* Player section */
 
 .player{
     background-color: #282828;
     min-height: 10vh;
     width: 100%;
+    display: flex;
+    color: white;
+}
+
+.left-player{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-basis: 30%;
+}
+
+.left-player .player-info{
+    margin-left: 10px;
+}
+
+.left-player .player-info p{
+    color: #797C80;
+    font-weight: 600;
+}
+
+.left-player .player-icons{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    color: #797C80;
+    font-size: 20px;
+}
+
+.left-player img{
+    max-width: 60px;
+    max-height: 50px;
 }
