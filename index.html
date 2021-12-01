@@ -14,6 +14,7 @@
         crossorigin='anonymous' />
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <title>Spotify</title>
 </head>
 
@@ -23,20 +24,69 @@
         <!--  Sidebar -->
         <section class="sidebar">
             <div class="sidebar-icons">
-                <img src="img/logo-small.svg" alt="Logo">
-                <img src="img/home.svg" alt="Home">
-                <img src="img/search.svg" alt="Cerca">
-                <img src="img/libreria.svg" alt="Libreria">
+                <div class="sidebar-content">
+                    <img id="small-logo" src="img/logo-small.svg" alt="Logo">
+                    <img id="big-logo" src="img/logo.svg" alt="logo big">
+                </div>
+                <div class="sidebar-content">
+                    <img src="img/home.svg" alt="Home">
+                    <p>Home</p>
+                </div>
+                <div class="sidebar-content grey-icon">
+                    <img src="img/search.svg" alt="Cerca">
+                    <p>Cerca</p>
+                </div>
+                <div class="sidebar-content grey-icon">
+                    <img src="img/libreria.svg" alt="Libreria">
+                    <p>La tua libreria</p>
+                </div>
+
+                <div class="playlist-section sidebar-icons">
+                    <h3>PLAYLIST</h3>
+                    <div class="create-play">
+                        <i class="fas fa-plus-square fa-3x"></i>
+                        <h4 class="grey-icon">Crea Playlist</h4>
+                    </div>
+                    <div class="sidebar-content grey-icon">
+                        <p>Nome Playlist</p>
+                    </div>
+                    <div class="sidebar-content grey-icon">
+                        <p>Nome Playlist</p>
+                    </div>
+                    <div class="sidebar-content grey-icon">
+                        <p>Nome Playlist</p>
+                    </div>
+                    <div class="sidebar-content grey-icon">
+                        <p>Nome Playlist</p>
+                    </div>
+                    <div class="sidebar-content grey-icon">
+                        <p>Nome Playlist</p>
+                    </div>
+                    <div class="sidebar-content grey-icon">
+                        <p>Nome Playlist</p>
+                    </div>
+                    <div class="sidebar-content grey-icon">
+                        <p>Nome Playlist</p>
+                    </div>
+                </div>
+
                 <div class="bottom-icons">
-                    <img id="download" src="img/download.svg" alt="Download">
-                    <img id="profile" src="img/profile.svg" alt="Profilo">
+                    <div class="sidebar-content">
+                        <img id="download" src="img/download.svg" alt="Download">
+                        <p>Installa app</p>
+                    </div>
+                    <hr>
+                    <div class="sidebar-content">
+                        <img id="profile" src="img/profile.svg" alt="Profilo">
+                        <h3>Gioele Runza</h3>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- Content sections -->
 
-        <div class="wrapper">
+        <div class="main-section">
 
             <!-- Header section -->
             <header>

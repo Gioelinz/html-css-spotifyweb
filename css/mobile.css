@@ -25,6 +25,14 @@ body{
     display: flex;
 }
 
+.sidebar p{
+    display: none;
+}
+
+#big-logo{
+    display: none;
+}
+
 .sidebar .sidebar-icons{
     width: 38px;
     height: 100%;
@@ -32,10 +40,19 @@ body{
     flex-direction: column;
     align-self: center;
     margin-top: 5px;
+    color: white;
+}
+
+.grey-icon{
+    color: #797C80;
 }
 
 .sidebar-icons img{
     margin: 5px auto;
+}
+
+.sidebar .playlist-section{
+    display: none;
 }
 
 .sidebar .bottom-icons{
@@ -43,6 +60,10 @@ body{
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
+}
+
+.bottom-icons h3, .bottom-icons hr{
+    display: none;
 }
 
 #download{
@@ -56,11 +77,12 @@ body{
     height: 35px;
     width: 35px;
     margin-bottom: 10px;
+    flex-shrink: 0;
 }
 
 /* Sezione Header */
 
-.wrapper{
+.main-section{
     flex-grow: 1;
     overflow-y: auto;
     display: flex;
@@ -151,6 +173,7 @@ ul.categories{
     color: #797C80;
     font-weight: 600;
     text-align: center;
+    font-size: 14px;
 }
 
 .albums img{
