@@ -154,12 +154,13 @@ ul.categories{
     display: flex;
     flex-wrap: wrap;
     margin-top: 20px;
+    width: 100%;
 }
 
 .albums{
     display: flex;
     justify-content: space-around;
-    max-width: 50%;
+    width: calc(100% /2);
     margin: 10px auto;
 }
 

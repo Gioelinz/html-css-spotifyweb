@@ -87,3 +87,21 @@
     }
 
 }
+
+/* Media query 992px */
+
+@media screen and (min-width: 992px){
+    
+    .albums{
+        width: calc(100% / 3);
+    }
+} 
+
+/* Media query 1200px */
+
+@media screen and (min-width: 1200px){
+    .albums{
+        width: calc(100% / 4);
+        justify-content: space-evenly;
+    }
+}
