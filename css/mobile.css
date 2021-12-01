@@ -23,6 +23,7 @@ body{
     width: 50px;
     flex-shrink: 0;
     display: flex;
+    z-index: -1;
 }
 
 .sidebar p{
@@ -41,6 +42,7 @@ body{
     align-self: center;
     margin-top: 5px;
     color: white;
+    
 }
 
 .grey-icon{
@@ -130,7 +132,6 @@ ul.categories{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    justify-items: center;
 }
 
 .categories li{

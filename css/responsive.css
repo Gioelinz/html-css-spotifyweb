@@ -132,4 +132,15 @@
 
 }
 
-/* Me */
+/* Media query 1400px */
+
+@media screen and (min-width: 1400px) {
+
+    .albums{
+        width: 180px;
+    }
+    
+    ul.categories{
+        justify-content: center;
+    }
+}
