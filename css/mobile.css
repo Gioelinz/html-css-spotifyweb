@@ -15,7 +15,7 @@ body{
     height: calc(100vh - 100px);
 }
 
-/* Hover section */
+/***** Hover section *******/
 
 /* Header */
 header #upgrade-btn:hover{
@@ -36,6 +36,51 @@ header #upgrade-btn:hover{
     color: white;
 }
 
+/* Player */
+
+.left-player *{
+    cursor: pointer;
+}
+
+.player-info *:hover{
+    text-decoration: underline;
+}
+
+.middle-player .top-mid i{
+    cursor: pointer;
+}
+
+.middle-player .music-bar, .right-player .audio-bar{
+    cursor: pointer;
+}
+
+.play-hover:hover{
+    transform: scale(1.2);
+}
+
+.music-bar .fill-bar::after, .audio-bar .fillaudio-bar::after{
+    content: '\f111';
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900;
+    position: absolute;
+    top: -5px;
+    left: 29%;
+    display: none;
+}
+
+.music-bar .fill-bar:hover, .audio-bar .fillaudio-bar:hover{
+    background-color: #ADFF2F;  
+}
+
+.music-bar .fill-bar:hover::after, .audio-bar .fillaudio-bar:hover::after{
+    display: block;  
+}
+
+.right-player *{
+    cursor: pointer;
+}
+
+/***************/
 
 /* Sezione sidebar */
 
@@ -297,6 +342,7 @@ footer.player{
     width: 70%;
     background-color: #797C80;
     border-radius: 20px;
+    position: relative;
 }
 
 .music-bar .fill-bar{
@@ -311,6 +357,7 @@ footer.player{
     width: 80px;
     background-color: #797C80;
     border-radius: 20px;
+    position: relative;
 }
 
 .audio-bar .fillaudio-bar{
