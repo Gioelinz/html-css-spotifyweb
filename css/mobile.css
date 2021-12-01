@@ -121,7 +121,9 @@ header #upgrade-btn{
 
 /* Main contents */
 
-
+main{
+    padding: 0 20px;
+}
 
 ul.categories{
     margin-top: 120px;
@@ -159,7 +161,7 @@ ul.categories{
 
 .albums{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: calc(100% /2);
     margin: 10px auto;
 }
@@ -192,14 +194,12 @@ main h2{
     color: white;
     font-size: 2em;
     margin-bottom: 10px;
-    margin-left: 5%;
     margin-top: 10px;
 }
 
 main p{
     color: #797C80;
     font-weight: 600;
-    margin-left: 5%;
 }
 
 .circle-img{
@@ -252,6 +252,7 @@ footer.player{
     flex-basis: 40%;
     flex-direction: column;
     justify-content: space-evenly;
+    flex-shrink: 0;
 }
 
 .middle-player .top-mid{
@@ -275,7 +276,7 @@ footer.player{
 
 .music-bar{
     height: 6px;
-    min-width: 70%;
+    width: 70%;
     background-color: #797C80;
     border-radius: 20px;
 }
@@ -287,13 +288,29 @@ footer.player{
     border-radius: 20px;
 }
 
+.audio-bar{
+    height: 6px;
+    width: 80px;
+    background-color: #797C80;
+    border-radius: 20px;
+}
+
+.audio-bar .fillaudio-bar{
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    border-radius: 20px;
+}
+
 .right-player{
     display: flex;
     align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
     flex-basis: 30%;
-    padding: 0 35px;
-    justify-content: space-evenly;
+    flex-shrink: 1;
 }
+
 
 .right-player i{
     padding: 0 5px;

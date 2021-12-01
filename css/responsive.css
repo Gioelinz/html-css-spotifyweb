@@ -86,6 +86,14 @@
         margin-bottom: 5px;
     }
 
+    .right-player{
+        padding-right: 10px;
+    }
+
+    .audio-bar{
+        width: 150px;
+    }
+
 }
 
 /* Media query 992px */
@@ -101,7 +109,25 @@
 
 @media screen and (min-width: 1200px){
     .albums{
-        width: calc(100% / 4);
-        justify-content: space-evenly;
+        width: 140px;
+        justify-content: flex-start;
+        margin: 0 10px 0 0;
     }
+
+    .albums h3{
+        font-size: 1em;
+    }
+
+    .albums p{
+        font-size: 12px;
+    }
+
+    #foryou, #popular{
+      width: calc(100% / 2);
+    }
+
+    #foryou .albums, #popular .albums{
+        margin: 0 20px 0 0;
+    }
+
 }
