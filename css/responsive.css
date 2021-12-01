@@ -33,6 +33,7 @@
 
     .sidebar-content{
         display: flex;
+        cursor: pointer;
     }
 
     .sidebar .playlist-section{

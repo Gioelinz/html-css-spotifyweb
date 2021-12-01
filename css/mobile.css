@@ -15,6 +15,28 @@ body{
     height: calc(100vh - 100px);
 }
 
+/* Hover section */
+
+/* Header */
+header #upgrade-btn:hover{
+    transform: scale(1.05);
+}
+/* Sidebar */
+.sidebar-content, .create-play{
+    cursor: pointer;
+}
+
+.white-hover:hover{
+    color: white;
+    filter: brightness(2);
+}
+
+/* Main */
+.categories a:hover{
+    color: white;
+}
+
+
 /* Sezione sidebar */
 
 .sidebar{
@@ -23,7 +45,6 @@ body{
     width: 50px;
     flex-shrink: 0;
     display: flex;
-    z-index: -1;
 }
 
 .sidebar p{
@@ -115,11 +136,6 @@ header #upgrade-btn{
     top: 20px;
     cursor: pointer;
 }
-
-/* .space-header{
-    height: 12%;
-    background-color: #141922;
-} */
 
 /* Main contents */
 
@@ -214,6 +230,7 @@ footer.player{
     height: 100px;
     width: 100%;
     display: flex;
+    z-index: 1;
     color: white;
 }
 
