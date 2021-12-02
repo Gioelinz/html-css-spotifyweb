@@ -38,6 +38,8 @@
 
     .sidebar .playlist-section{
         display: flex;
+        overflow-y: auto;
+        width: 230px;
     }
 
     .playlist-section p{
@@ -102,7 +104,7 @@
 @media screen and (min-width: 992px){
     
     .albums{
-        width: calc(100% / 3);
+        flex-basis: calc(100% / 3);
     }
 } 
 
@@ -110,9 +112,8 @@
 
 @media screen and (min-width: 1200px){
     .albums{
-        width: 140px;
+        flex-basis: calc(100% / 6);
         justify-content: flex-start;
-        margin: 0 10px 0 0;
     }
 
     .albums h3{
@@ -124,7 +125,7 @@
     }
 
     #foryou, #popular{
-      width: calc(100% / 2);
+      flex-basis: calc(100% / 2);
     }
 
     #foryou .albums, #popular .albums{
@@ -136,10 +137,6 @@
 /* Media query 1400px */
 
 @media screen and (min-width: 1400px) {
-
-    .albums{
-        width: 180px;
-    }
     
     ul.categories{
         justify-content: center;

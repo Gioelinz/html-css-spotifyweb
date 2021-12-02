@@ -136,7 +136,6 @@ header #upgrade-btn:hover{
     align-self: center;
     margin-top: 5px;
     color: white;
-    
 }
 
 .grey-icon{
@@ -246,15 +245,15 @@ ul.categories{
     display: flex;
     flex-wrap: wrap;
     margin-top: 20px;
-    width: 100%;
+    flex-basis: 100%;
+    margin: 15px -15px;
 }
 
 .albums{
     display: flex;
-    justify-content: space-between;
-    width: calc(100% /2);
-    margin: 10px auto;
+    flex-basis: 50%;
     position: relative;
+    padding: 15px;
 }
 
 .albums h3{
