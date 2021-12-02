@@ -101,8 +101,7 @@
 
 /* Media query 992px */
 
-@media screen and (min-width: 992px){
-    
+@media screen and (min-width: 992px){  
     .albums{
         flex-basis: calc(100% / 3);
     }
